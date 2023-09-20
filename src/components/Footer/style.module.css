@@ -1,0 +1,46 @@
+.containerFooter {
+  min-height: 60vh;
+
+  background: #c08267;
+  height: 100%;
+
+  padding: 50px;
+}
+
+.maxContainer {
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.containerList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  margin: 50px 0;
+  padding: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.list li {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.list :first-child {
+  font-size: 2.4rem;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background: white;
+
+  margin: 20px 0;
+}

@@ -1,0 +1,35 @@
+.sectionCoffee {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.containerTitleH2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.title {
+  font-size: 2rem;
+  color: #c08267;
+}
+.containerTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.containerLine {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.line {
+  background: #a0583c;
+  height: 2px;
+  width: 100%;
+}
