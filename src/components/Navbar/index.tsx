@@ -3,7 +3,7 @@ import style from "./style.module.css";
 
 function Navbar() {
   const [isActiveNav, setIsActiveNav] = useState(false);
-  const [isWidth, setIsWidth] = useState(false);
+  const [isWidth, setIsWidth] = useState(window.innerWidth > 800);
 
   const handlerToggle = () => setIsActiveNav((prev) => !prev);
 
